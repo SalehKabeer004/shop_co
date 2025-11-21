@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/brands.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                aria-controls="staticBackdrop">
+                Toggle static offcanvas
+            </button> -->
+
+    <!-- reponsive sidebar for menu -->
+
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+        aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5> -->
+            <img src="./assets/images/SHOP.png" alt="">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="sidebar-menu">
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">On Sale</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- top bar -->
+
+    <div class="top-bar">
+        <p> Sign up and get 20% off to your first order. <a href="#">Sign Up Now</a></p>
+        <i id="tbar-cls" class="fa-solid fa-xmark"></i>
+    </div>
+
+    <!-- header -->
+
+    <section class="main header">
+        <div class="nav">
+
+            <div class="menu-toggle"><i class="fa-solid fa-bars  type=" button" data-bs-toggle="offcanvas"
+                    data-bs-target="#staticBackdrop" aria-controls="staticBackdrop""></i></div>
+            <div class=" logo">
+                    <img src="./assets/images/SHOP.png" alt="">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">On Sale</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search for products..." name="" id="">
+            </div>
+            <div class="nav-btns">
+                <i id="responsive-search" class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- hero section -->
+
+    <section class="main hero-section">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your
+                    individuality and cater to your sense of style.</p>
+                <a class="btn-dark" href="#">Shop Now</a>
+            </div>
+            <div class="hero-visuals">
+                <img id="hero-img" src="./assets/images/hero-img.png" alt="">
+                <img id="star-1" src="./assets/images/star.png" alt="">
+                <img id="star-2" src="./assets/images/star.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- brands section -->
+
+    <!-- <section class="main brands-section">
+        <div class="brands">
+            <img src="./assets/images/brand1.png" alt="">
+            <img src="./assets/images/brand2.png" alt="">
+            <img src="./assets/images/brand3.png" alt="">
+            <img src="./assets/images/brand4.png" alt="">
+            <img src="./assets/images/brand5.png" alt="">
+        </div>
+    </section> -->
+
+
+    <!-- marqee -->
+    <section class="marq">
+        <article class="wrapper">
+            <div class="marquee">
+                <div class="marquee_group">
+                    <!-- <i class="fa fa-vimeo"></i>
+                    <i class="fa fa-amazon"></i>
+                    <i class="fa fa-android"></i>
+                    <i class="fa fa-apple"></i>
+                    <i class="fa fa-bitcoin"></i>
+                    <i class="fa fa-dropbox"></i>
+                    <i class="fa fa-github"></i>
+                    <i class="fa fa-html5"></i> -->
+                    <img src="./assets/images/brand1.png" alt="">
+                    <img src="./assets/images/brand2.png" alt="">
+                    <img src="./assets/images/brand3.png" alt="">
+                    <img src="./assets/images/brand4.png" alt="">
+                    <img src="./assets/images/brand5.png" alt="">
+                </div>
+                <div aria-hidden="ture" class="marquee_group">
+                    <!-- <i class="fa fa-adn"></i>
+                    <i class="fa fa-amazon"></i>
+                    <i class="fa fa-android"></i>
+                    <i class="fa fa-apple"></i>
+                    <i class="fa fa-bitcoin"></i>
+                    <i class="fa fa-dropbox"></i>
+                    <i class="fa fa-github"></i>
+                    <i class="fa fa-html5"></i> -->
+                    <img src="./assets/images/brand1.png" alt="">
+                    <img src="./assets/images/brand2.png" alt="">
+                    <img src="./assets/images/brand3.png" alt="">
+                    <img src="./assets/images/brand4.png" alt="">
+                    <img src="./assets/images/brand5.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="marquee marquee-reverse">
+                <div class="marquee_group">
+                    <img src="./assets/images/brand1.png" alt="">
+                    <img src="./assets/images/brand2.png" alt="">
+                    <img src="./assets/images/brand3.png" alt="">
+                    <img src="./assets/images/brand4.png" alt="">
+                    <img src="./assets/images/brand5.png" alt="">
+                </div>
+                <div aria-hidden="ture" class="marquee_group">
+                    <img src="./assets/images/brand1.png" alt="">
+                    <img src="./assets/images/brand2.png" alt="">
+                    <img src="./assets/images/brand3.png" alt="">
+                    <img src="./assets/images/brand4.png" alt="">
+                    <img src="./assets/images/brand5.png" alt="">
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- new arrivals section -->
+    <section class="main featured">
+        <h2>NEW ARRIVALS</h2>
+        <div class="feature-products">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./assets/images/products/T-SHIRT WITH TAPE DETAILS.png" alt="">
+                </div>
+                <div class="product-title">T-Shirt with Tape</div>
+                <div class="product-rating">
+                    <div class="rating-stars">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <p class="rating-value">4.5<span class="rating-into">/5</span></p>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <p class="actual-prices">$120<span class="cut-price">$300</span><span
+                            class="product-discount">-20%</span></p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./assets/images/products/T-SHIRT WITH TAPE DETAILS.png" alt="">
+                </div>
+                <div class="product-title">T-Shirt with Tape</div>
+                <div class="product-rating">
+                    <div class="rating-stars">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <p class="rating-value">4.5<span class="rating-into">/5</span></p>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <p class="actual-prices">$120<span class="cut-price">$300</span><span
+                            class="product-discount">-20%</span></p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./assets/images/products/T-SHIRT WITH TAPE DETAILS.png" alt="">
+                </div>
+                <div class="product-title">T-Shirt with Tape</div>
+                <div class="product-rating">
+                    <div class="rating-stars">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <p class="rating-value">4.5<span class="rating-into">/5</span></p>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <p class="actual-prices">$120<span class="cut-price">$300</span><span
+                            class="product-discount">-20%</span></p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./assets/images/products/T-SHIRT WITH TAPE DETAILS.png" alt="">
+                </div>
+                <div class="product-title">T-Shirt with Tape</div>
+                <div class="product-rating">
+                    <div class="rating-stars">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <p class="rating-value">4.5<span class="rating-into">/5</span></p>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <p class="actual-prices">$120<span class="cut-price">$300</span><span
+                            class="product-discount">-20%</span></p>
+                </div>
+            </div>
+        </div>
+        <a class="view-all-btn btn-light" href="#">View All</a>
+    </section>
+
+    <!-- separator -->
+
+    <section class="main separator">
+        <div class="line"></div>
+    </section>
+
+    <!-- top selling section -->
+    <section class="main featured">
+        <h2>NEW ARRIVALS</h2>
+        <div class="feature-products">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./assets/images/products/T-SHIRT WITH TAPE DETAILS.png" alt="">
+                </div>
+                <div class="product-title">T-Shirt with Tape</div>
+                <div class="product-rating">
+                    <div class="rating-stars">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <p class="rating-value">4.5<span class="rating-into">/5</span></p>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <p class="actual-prices">$120<span class="cut-price">$300</span><span
+                            class="product-discount">-20%</span></p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./assets/images/products/T-SHIRT WITH TAPE DETAILS.png" alt="">
+                </div>
+                <div class="product-title">T-Shirt with Tape</div>
+                <div class="product-rating">
+                    <div class="rating-stars">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <p class="rating-value">4.5<span class="rating-into">/5</span></p>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <p class="actual-prices">$120<span class="cut-price">$300</span><span
+                            class="product-discount">-20%</span></p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./assets/images/products/T-SHIRT WITH TAPE DETAILS.png" alt="">
+                </div>
+                <div class="product-title">T-Shirt with Tape</div>
+                <div class="product-rating">
+                    <div class="rating-stars">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <p class="rating-value">4.5<span class="rating-into">/5</span></p>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <p class="actual-prices">$120<span class="cut-price">$300</span><span
+                            class="product-discount">-20%</span></p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="./assets/images/products/T-SHIRT WITH TAPE DETAILS.png" alt="">
+                </div>
+                <div class="product-title">T-Shirt with Tape</div>
+                <div class="product-rating">
+                    <div class="rating-stars">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <img src="./assets/images/products/rating-star.png" alt="">
+                        <p class="rating-value">4.5<span class="rating-into">/5</span></p>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <p class="actual-prices">$120<span class="cut-price">$300</span><span
+                            class="product-discount">-20%</span></p>
+                </div>
+            </div>
+        </div>
+        <a class="view-all-btn btn-light" href="#">View All</a>
+    </section>
+
+    <!-- grid layout -->
+
+    <section class="main">
+        <div class="brows">
+            <h2>BROWSE BY DRESS STYLE</h2>
+            <div class="grid-layout">
+                <div class="row1">
+                    <div class="col">
+                        <p class="col-title">Casual</p>
+                        <img class="col-img" src="./assets/images/catelog/casual.png" alt="">
+                    </div>
+                    <div class="col">
+                        <p class="col-title">Formal</p>
+                        <img class="col-img" src="./assets/images/catelog/formal.png" alt="">
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="col">
+                        <p class="col-title">Party</p>
+                        <img class="col-img" src="./assets/images/catelog/party.png" alt="">
+                    </div>
+                    <div class="col">
+                        <p class="col-title">Gym</p>
+                        <img class="col-img" src="./assets/images/catelog/gym.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial slider -->
+
+    <div class="section-header">
+        <h2>OUR HAPPY CUSTOMERS</h2>
+        <div class="arrows" aria-label="Testimonial navigation">
+            <span class="arrow" aria-label="Previous testimonial" id="prev"><i
+                    class="fa-solid fa-arrow-left"></i></span>
+            <span class="arrow" aria-label="Next testimonial" id="next"><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+    </div>
+
+    <div class="slider-container" aria-live="polite" aria-atomic="true">
+        <div class="slider-wrapper" id="slider-wrapper">
+            <!-- Testimonial cards duplicated for infinite loop -->
+            <div class="testimonial" aria-label="Testimonial from Sarah M">
+                <div class="stars" aria-hidden="true">★★★★★</div>
+                <div class="name-line">
+                    <span>Sarah M.</span>
+                    <span class="verified-icon" aria-label="Verified customer"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <p class="testimonial-text">“I'm blown away by the quality and style of the clothes I received from
+                    Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”
+                </p>
+            </div>
+            <div class="testimonial" aria-label="Testimonial from Alex K">
+                <div class="stars" aria-hidden="true">★★★★★</div>
+                <div class="name-line">
+                    <span>Alex K.</span>
+                    <span class="verified-icon" aria-label="Verified customer"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <p class="testimonial-text">“Finding clothes that align with my personal style used to be a challenge
+                    until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a
+                    variety of tastes and occasions.”</p>
+            </div>
+            <div class="testimonial" aria-label="Testimonial from James L">
+                <div class="stars" aria-hidden="true">★★★★★</div>
+                <div class="name-line">
+                    <span>James L.</span>
+                    <span class="verified-icon" aria-label="Verified customer"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <p class="testimonial-text">“As someone who's always on the lookout for unique fashion pieces, I'm
+                    thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also
+                    on-point with the latest trends.”</p>
+            </div>
+            <!-- duplicate nodes for infinite effect -->
+            <div class="testimonial" aria-hidden="true">
+                <div class="stars">★★★★★</div>
+                <div class="name-line">
+                    <span>Sarah M.</span>
+                    <span class="verified-icon"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <p class="testimonial-text">“I'm blown away by the quality and style of the clothes I received from
+                    Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”
+                </p>
+            </div>
+            <div class="testimonial" aria-hidden="true">
+                <div class="stars">★★★★★</div>
+                <div class="name-line">
+                    <span>Alex K.</span>
+                    <span class="verified-icon"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <p class="testimonial-text">“Finding clothes that align with my personal style used to be a challenge
+                    until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a
+                    variety of tastes and occasions.”</p>
+            </div>
+            <div class="testimonial" aria-hidden="true">
+                <div class="stars">★★★★★</div>
+                <div class="name-line">
+                    <span>James L.</span>
+                    <span class="verified-icon"><i class="fa-solid fa-check"></i></span>
+                </div>
+                <p class="testimonial-text">“As someone who's always on the lookout for unique fashion pieces, I'm
+                    thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also
+                    on-point with the latest trends.”</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+
+    <section class="main footer">
+        <div class="newsletter">
+            <h2>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
+            <div class="newsletter-form">
+                <div class="email-field">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email address" name="" id="">
+                </div>
+                <a href="#">Subscribe to Newsletter</a>
+            </div>
+        </div>
+        <div class="footer-top">
+            <div class="footer-info">
+                <img src="./assets/images/SHOP.png" alt="">
+                <p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+                <div class="social-icons">
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="links">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>HELP</h4>
+                    <ul>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Delivery Details</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="links">
+                    <h4>FAQ</h4>
+                    <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Manage Deliveries</a></li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Payments</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>RESOURCES</h4>
+                    <ul>
+                        <li><a href="#">Free eBooks</a></li>
+                        <li><a href="#">Development Tutorial</a></li>
+                        <li><a href="#">How to - Blog</a></li>
+                        <li><a href="#">Youtube Playlist</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="mian separator">
+            <div class="line"></div>
+        </section>
+        <div class="footer-bottom">
+            <p class="copyright-text">Shop.co © 2000-2023, All Rights Reserved</p>
+            <div class="payment-methods">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+                <i class="fa-brands fa-google-pay"></i>
+                <i class="fa-brands fa-cc-apple-pay"></i>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/testimonial.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
