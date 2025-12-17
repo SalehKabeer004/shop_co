@@ -1,9 +1,4 @@
-// document.querySelectorAll(".feature-products").forEach(section => {
-//     section.addEventListener("wheel", function(e) {
-//         e.preventDefault();
-//         this.scrollLeft += e.deltaY;
-//     });
-// });
+
 
 document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".feature-products").forEach(section => {
@@ -12,5 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
             e.preventDefault();        // allow scroll override
             section.scrollLeft += e.deltaY;
         }, { passive: false });        // IMPORTANT
+    });
+
+    // closing top bar
+    document.getElementById("tbar-cls").addEventListener("click", function () {
+        this.parentElement.style.display = "none";
     });
 });
